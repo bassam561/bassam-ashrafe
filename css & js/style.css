@@ -165,19 +165,10 @@ nav button:hover{
     nav{
         padding: 10px 20px;
     }
-
     nav .nav-logo h1,
     nav .nav-logo i{
         font-size:18px;
     }
-    nav ul li a{
-        font-size: 12px;
-    }
-    nav button{
-        padding: 5px 12px;
-    }
-}
-@media screen and (max-width: 570px) {
     nav ul,
     nav button{
         display: none; 
@@ -189,6 +180,8 @@ nav button:hover{
         cursor: pointer;
         color: black;
     }
+}
+@media screen and (max-width: 570px) {
     nav button{
         padding:2px 4px;
         font-size: 10px;
@@ -1065,7 +1058,7 @@ nav button:hover{
 }
 
 .help .item{
-    transform: scale(1.3);
+    transform: scale(1.1);
     opacity: 0;
 }
 
@@ -1181,7 +1174,7 @@ footer{
 footer .item{
     display: flex;
     gap: 50px;
-    transform: translateX(-100px);
+    transform:scale(1.1);
     opacity: 0;
 }
 
